@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B7A9C68228B3D15006FC83E /* String+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7A9C67228B3D15006FC83E /* String+Utils.swift */; };
+		7BDBA24D2289C786000D2CB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDBA24C2289C786000D2CB9 /* AppDelegate.swift */; };
+		7BDBA24F2289C786000D2CB9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDBA24E2289C786000D2CB9 /* MainViewController.swift */; };
+		7BDBA2512289C786000D2CB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BDBA2502289C786000D2CB9 /* Assets.xcassets */; };
+		7BDBA2542289C786000D2CB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BDBA2522289C786000D2CB9 /* Main.storyboard */; };
+		7BDBA25B2289C7E2000D2CB9 /* RSASwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BDBA25A2289C7E2000D2CB9 /* RSASwift.framework */; };
+		7BDBA25C2289C7E2000D2CB9 /* RSASwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7BDBA25A2289C7E2000D2CB9 /* RSASwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7BDBA25D2289C7E2000D2CB9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7BDBA25C2289C7E2000D2CB9 /* RSASwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7B7A9C67228B3D15006FC83E /* String+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Utils.swift"; sourceTree = "<group>"; };
+		7BDBA24A2289C786000D2CB9 /* RSASwiftExample-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RSASwiftExample-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BDBA24C2289C786000D2CB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BDBA24E2289C786000D2CB9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7BDBA2502289C786000D2CB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BDBA2532289C786000D2CB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BDBA2552289C786000D2CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BDBA2562289C786000D2CB9 /* RSASwiftExample_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RSASwiftExample_macOS.entitlements; sourceTree = "<group>"; };
+		7BDBA25A2289C7E2000D2CB9 /* RSASwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RSASwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BDBA2472289C786000D2CB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDBA25B2289C7E2000D2CB9 /* RSASwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BDBA22A2289C71C000D2CB9 = {
+			isa = PBXGroup;
+			children = (
+				7BDBA25A2289C7E2000D2CB9 /* RSASwift.framework */,
+				7BDBA24B2289C786000D2CB9 /* RSASwiftExample-macOS */,
+				7BDBA2342289C71C000D2CB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BDBA2342289C71C000D2CB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BDBA24A2289C786000D2CB9 /* RSASwiftExample-macOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BDBA24B2289C786000D2CB9 /* RSASwiftExample-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				7BDBA24C2289C786000D2CB9 /* AppDelegate.swift */,
+				7BDBA24E2289C786000D2CB9 /* MainViewController.swift */,
+				7B7A9C67228B3D15006FC83E /* String+Utils.swift */,
+				7BDBA2502289C786000D2CB9 /* Assets.xcassets */,
+				7BDBA2522289C786000D2CB9 /* Main.storyboard */,
+				7BDBA2552289C786000D2CB9 /* Info.plist */,
+				7BDBA2562289C786000D2CB9 /* RSASwiftExample_macOS.entitlements */,
+			);
+			path = "RSASwiftExample-macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BDBA2492289C786000D2CB9 /* RSASwiftExample-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BDBA2572289C786000D2CB9 /* Build configuration list for PBXNativeTarget "RSASwiftExample-macOS" */;
+			buildPhases = (
+				7BDBA2462289C786000D2CB9 /* Sources */,
+				7BDBA2472289C786000D2CB9 /* Frameworks */,
+				7BDBA2482289C786000D2CB9 /* Resources */,
+				7BDBA25D2289C7E2000D2CB9 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RSASwiftExample-macOS";
+			productName = "RSASwiftExample-macOS";
+			productReference = 7BDBA24A2289C786000D2CB9 /* RSASwiftExample-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BDBA22B2289C71C000D2CB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = wuyuehyang;
+				TargetAttributes = {
+					7BDBA2492289C786000D2CB9 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7BDBA22E2289C71C000D2CB9 /* Build configuration list for PBXProject "RSASwiftExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BDBA22A2289C71C000D2CB9;
+			productRefGroup = 7BDBA2342289C71C000D2CB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BDBA2492289C786000D2CB9 /* RSASwiftExample-macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BDBA2482289C786000D2CB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDBA2512289C786000D2CB9 /* Assets.xcassets in Resources */,
+				7BDBA2542289C786000D2CB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BDBA2462289C786000D2CB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDBA24F2289C786000D2CB9 /* MainViewController.swift in Sources */,
+				7BDBA24D2289C786000D2CB9 /* AppDelegate.swift in Sources */,
+				7B7A9C68228B3D15006FC83E /* String+Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7BDBA2522289C786000D2CB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BDBA2532289C786000D2CB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BDBA2412289C71C000D2CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BDBA2422289C71C000D2CB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7BDBA2582289C786000D2CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "RSASwiftExample-macOS/RSASwiftExample_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D29C5YJ9U9;
+				INFOPLIST_FILE = "RSASwiftExample-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yy.wu.RSASwiftExample-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7BDBA2592289C786000D2CB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "RSASwiftExample-macOS/RSASwiftExample_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D29C5YJ9U9;
+				INFOPLIST_FILE = "RSASwiftExample-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yy.wu.RSASwiftExample-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BDBA22E2289C71C000D2CB9 /* Build configuration list for PBXProject "RSASwiftExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDBA2412289C71C000D2CB9 /* Debug */,
+				7BDBA2422289C71C000D2CB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BDBA2572289C786000D2CB9 /* Build configuration list for PBXNativeTarget "RSASwiftExample-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDBA2582289C786000D2CB9 /* Debug */,
+				7BDBA2592289C786000D2CB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BDBA22B2289C71C000D2CB9 /* Project object */;
+}
